@@ -4,8 +4,7 @@ This repository contains a detailed analysis report conducted using MATLAB. The 
 
 ## Project Overview
 
-### Task 1.1: Basic Statistics of Random Variables (3 Points)
-
+### Task 1.1: Basic Statistics of Random Variables
 1. **Generate Data**:
    - Created three samples (`N`, `N2`, `N3`) of size 2000 from a standard normal distribution.
    - Constructed the variable `Z` as `Z = N^2 + N2^2 + N3^2`.
@@ -17,8 +16,7 @@ This repository contains a detailed analysis report conducted using MATLAB. The 
 3. **Statistical Comparison**:
    - Calculated basic statistics (mean, median, variance, skewness) for `Z` and compared them with analytic statistics for the χ²(3) distribution in a table format.
 
-### Task 1.2: Kernel Density Estimation (2 Points)
-
+### Task 1.2: Kernel Density Estimation 
 1. **Load and Analyze Data**:
    - Loaded the provided `lab3` dataset containing three samples.
    - Applied two kernel functions with two different bandwidths for each sample and plotted them on individual figures.
@@ -27,8 +25,7 @@ This repository contains a detailed analysis report conducted using MATLAB. The 
    - Determined which sample appeared to originate from a normal distribution based on visual inspection.
    - Verified the assumption using a q-q plot.
 
-### Task 1.3: Testing Normality and Correlation (2 Points)
-
+### Task 1.3: Testing Normality and Correlation
 1. **Load Data**:
    - Loaded the `data4` file and performed normality tests to identify whether vector `x` or `y1` was normally distributed.
 
@@ -39,8 +36,7 @@ This repository contains a detailed analysis report conducted using MATLAB. The 
    - Conducted Pearson and Spearman correlation tests between pairs `(x, y1)`, `(x, y2)`, and `(x, y3)`.
    - Analyzed whether correlations were positive or negative for each pair.
 
-### Task 1.4: Financial Data Analysis (3 Points)
-
+### Task 1.4: Financial Data Analysis
 1. **Data Preparation**:
    - Downloaded and imported two selected indices from the S&P 500, covering the period from 31.12.2021 to 31.12.2022.
   
